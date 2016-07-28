@@ -1,0 +1,5 @@
+data/error/*
+data/face_only/*
+data/img_origin/*
+tmp/*
+!.gitkeep
