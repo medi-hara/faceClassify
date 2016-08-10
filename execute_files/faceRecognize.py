@@ -16,7 +16,7 @@ inDir = "../data/img_origin/"
 outDir = "../data/face_only/"
 errDir = "../data/error/"
 
-#HAAR分類器ロード　※インストール環境に応じて変更してください。
+#HAAR分類器ロード　※必要に応じて変更してください。
 cascade_path = "/usr/local/Cellar/opencv/2.4.12_2/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml"
 
 # 執筆時デフォルトで含まれている顔認識データセット
@@ -26,10 +26,7 @@ cascade_path = "/usr/local/Cellar/opencv/2.4.12_2/share/OpenCV/haarcascades/haar
 # haarcascade_frontalface_alt_tree.xml
 # haarcascade_profileface.xml
 
-
 image_path = inDir + params[1]
-
-#color = (255, 255, 255) #白
 
 print image_path
 

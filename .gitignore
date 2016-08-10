@@ -1,5 +1,14 @@
+.DS_Store
 data/error/*
 data/face_only/*
 data/img_origin/*
+data/test/*
+data/train/*
+execute_files/checkpoint
+execute_files/testDat.csv
+execute_files/trainDat.csv
+execute_files/model.ckpt
+execute_files/model.ckpt.meta
+execute_files/trainTensor.py
 tmp/*
 !.gitkeep
